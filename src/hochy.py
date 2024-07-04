@@ -1,0 +1,6 @@
+print("Введите слово")
+slovo = input()
+print ("Теперь еще одно")
+slovow = input()
+slova = set(slovo) & set(slovow)
+print (slova)
